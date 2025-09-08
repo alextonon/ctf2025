@@ -1,7 +1,7 @@
 import requests
 
-data = {"number": "65",
-        "answer": "https://github.com/SupaeroDataScience/machine-learning.git",
-        "user": "a.barberin"}
+data = {"number": "190",
+        "answer": "28",
+        "user": "a.tonon"}
 r = requests.post("http://34.163.196.38/", data=data)
 print(r.text)
